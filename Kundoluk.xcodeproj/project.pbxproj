@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920BCD0F22F00117009E15F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920BCD0E22F00117009E15F6 /* AppDelegate.swift */; };
+		920BCD1122F00117009E15F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920BCD1022F00117009E15F6 /* ViewController.swift */; };
+		920BCD1422F00117009E15F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920BCD1222F00117009E15F6 /* Main.storyboard */; };
+		920BCD1622F00119009E15F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920BCD1522F00119009E15F6 /* Assets.xcassets */; };
+		920BCD1922F00119009E15F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920BCD1722F00119009E15F6 /* LaunchScreen.storyboard */; };
+		920BCD2422F00119009E15F6 /* KundolukTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920BCD2322F00119009E15F6 /* KundolukTests.swift */; };
+		920BCD2F22F00119009E15F6 /* KundolukUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920BCD2E22F00119009E15F6 /* KundolukUITests.swift */; };
+		920BCD3E22F00234009E15F6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920BCD3D22F00234009E15F6 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920BCD2022F00119009E15F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920BCD0322F00117009E15F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920BCD0A22F00117009E15F6;
+			remoteInfo = Kundoluk;
+		};
+		920BCD2B22F00119009E15F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920BCD0322F00117009E15F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920BCD0A22F00117009E15F6;
+			remoteInfo = Kundoluk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		920BCD0B22F00117009E15F6 /* Kundoluk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kundoluk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920BCD0E22F00117009E15F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		920BCD1022F00117009E15F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		920BCD1322F00117009E15F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		920BCD1522F00119009E15F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		920BCD1822F00119009E15F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		920BCD1A22F00119009E15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920BCD1F22F00119009E15F6 /* KundolukTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KundolukTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		920BCD2322F00119009E15F6 /* KundolukTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KundolukTests.swift; sourceTree = "<group>"; };
+		920BCD2522F00119009E15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920BCD2A22F00119009E15F6 /* KundolukUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KundolukUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		920BCD2E22F00119009E15F6 /* KundolukUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KundolukUITests.swift; sourceTree = "<group>"; };
+		920BCD3022F00119009E15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920BCD3D22F00234009E15F6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920BCD0822F00117009E15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920BCD3E22F00234009E15F6 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920BCD1C22F00119009E15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920BCD2722F00119009E15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920BCD0222F00117009E15F6 = {
+			isa = PBXGroup;
+			children = (
+				920BCD0D22F00117009E15F6 /* Kundoluk */,
+				920BCD2222F00119009E15F6 /* KundolukTests */,
+				920BCD2D22F00119009E15F6 /* KundolukUITests */,
+				920BCD0C22F00117009E15F6 /* Products */,
+				920BCD3C22F00234009E15F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		920BCD0C22F00117009E15F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920BCD0B22F00117009E15F6 /* Kundoluk.app */,
+				920BCD1F22F00119009E15F6 /* KundolukTests.xctest */,
+				920BCD2A22F00119009E15F6 /* KundolukUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920BCD0D22F00117009E15F6 /* Kundoluk */ = {
+			isa = PBXGroup;
+			children = (
+				920BCD0E22F00117009E15F6 /* AppDelegate.swift */,
+				920BCD1022F00117009E15F6 /* ViewController.swift */,
+				920BCD1222F00117009E15F6 /* Main.storyboard */,
+				920BCD1522F00119009E15F6 /* Assets.xcassets */,
+				920BCD1722F00119009E15F6 /* LaunchScreen.storyboard */,
+				920BCD1A22F00119009E15F6 /* Info.plist */,
+			);
+			path = Kundoluk;
+			sourceTree = "<group>";
+		};
+		920BCD2222F00119009E15F6 /* KundolukTests */ = {
+			isa = PBXGroup;
+			children = (
+				920BCD2322F00119009E15F6 /* KundolukTests.swift */,
+				920BCD2522F00119009E15F6 /* Info.plist */,
+			);
+			path = KundolukTests;
+			sourceTree = "<group>";
+		};
+		920BCD2D22F00119009E15F6 /* KundolukUITests */ = {
+			isa = PBXGroup;
+			children = (
+				920BCD2E22F00119009E15F6 /* KundolukUITests.swift */,
+				920BCD3022F00119009E15F6 /* Info.plist */,
+			);
+			path = KundolukUITests;
+			sourceTree = "<group>";
+		};
+		920BCD3C22F00234009E15F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				920BCD3D22F00234009E15F6 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920BCD0A22F00117009E15F6 /* Kundoluk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920BCD3322F00119009E15F6 /* Build configuration list for PBXNativeTarget "Kundoluk" */;
+			buildPhases = (
+				920BCD0722F00117009E15F6 /* Sources */,
+				920BCD0822F00117009E15F6 /* Frameworks */,
+				920BCD0922F00117009E15F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kundoluk;
+			productName = Kundoluk;
+			productReference = 920BCD0B22F00117009E15F6 /* Kundoluk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		920BCD1E22F00119009E15F6 /* KundolukTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920BCD3622F00119009E15F6 /* Build configuration list for PBXNativeTarget "KundolukTests" */;
+			buildPhases = (
+				920BCD1B22F00119009E15F6 /* Sources */,
+				920BCD1C22F00119009E15F6 /* Frameworks */,
+				920BCD1D22F00119009E15F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920BCD2122F00119009E15F6 /* PBXTargetDependency */,
+			);
+			name = KundolukTests;
+			productName = KundolukTests;
+			productReference = 920BCD1F22F00119009E15F6 /* KundolukTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		920BCD2922F00119009E15F6 /* KundolukUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920BCD3922F00119009E15F6 /* Build configuration list for PBXNativeTarget "KundolukUITests" */;
+			buildPhases = (
+				920BCD2622F00119009E15F6 /* Sources */,
+				920BCD2722F00119009E15F6 /* Frameworks */,
+				920BCD2822F00119009E15F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920BCD2C22F00119009E15F6 /* PBXTargetDependency */,
+			);
+			name = KundolukUITests;
+			productName = KundolukUITests;
+			productReference = 920BCD2A22F00119009E15F6 /* KundolukUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920BCD0322F00117009E15F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Baiaman Gapparov";
+				TargetAttributes = {
+					920BCD0A22F00117009E15F6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					920BCD1E22F00119009E15F6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 920BCD0A22F00117009E15F6;
+					};
+					920BCD2922F00119009E15F6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 920BCD0A22F00117009E15F6;
+					};
+				};
+			};
+			buildConfigurationList = 920BCD0622F00117009E15F6 /* Build configuration list for PBXProject "Kundoluk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920BCD0222F00117009E15F6;
+			productRefGroup = 920BCD0C22F00117009E15F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920BCD0A22F00117009E15F6 /* Kundoluk */,
+				920BCD1E22F00119009E15F6 /* KundolukTests */,
+				920BCD2922F00119009E15F6 /* KundolukUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920BCD0922F00117009E15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920BCD1922F00119009E15F6 /* LaunchScreen.storyboard in Resources */,
+				920BCD1622F00119009E15F6 /* Assets.xcassets in Resources */,
+				920BCD1422F00117009E15F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920BCD1D22F00119009E15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920BCD2822F00119009E15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920BCD0722F00117009E15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920BCD1122F00117009E15F6 /* ViewController.swift in Sources */,
+				920BCD0F22F00117009E15F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920BCD1B22F00119009E15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920BCD2422F00119009E15F6 /* KundolukTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920BCD2622F00119009E15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920BCD2F22F00119009E15F6 /* KundolukUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		920BCD2122F00119009E15F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920BCD0A22F00117009E15F6 /* Kundoluk */;
+			targetProxy = 920BCD2022F00119009E15F6 /* PBXContainerItemProxy */;
+		};
+		920BCD2C22F00119009E15F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920BCD0A22F00117009E15F6 /* Kundoluk */;
+			targetProxy = 920BCD2B22F00119009E15F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		920BCD1222F00117009E15F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920BCD1322F00117009E15F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		920BCD1722F00119009E15F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920BCD1822F00119009E15F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920BCD3122F00119009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		920BCD3222F00119009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920BCD3422F00119009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = Kundoluk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = kg.bayaman.Kundoluk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		920BCD3522F00119009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = Kundoluk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = kg.bayaman.Kundoluk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		920BCD3722F00119009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = KundolukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kg.bayaman.KundolukTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kundoluk.app/Kundoluk";
+			};
+			name = Debug;
+		};
+		920BCD3822F00119009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = KundolukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kg.bayaman.KundolukTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kundoluk.app/Kundoluk";
+			};
+			name = Release;
+		};
+		920BCD3A22F00119009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = KundolukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kg.bayaman.KundolukUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kundoluk;
+			};
+			name = Debug;
+		};
+		920BCD3B22F00119009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = KundolukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kg.bayaman.KundolukUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kundoluk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920BCD0622F00117009E15F6 /* Build configuration list for PBXProject "Kundoluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920BCD3122F00119009E15F6 /* Debug */,
+				920BCD3222F00119009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920BCD3322F00119009E15F6 /* Build configuration list for PBXNativeTarget "Kundoluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920BCD3422F00119009E15F6 /* Debug */,
+				920BCD3522F00119009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920BCD3622F00119009E15F6 /* Build configuration list for PBXNativeTarget "KundolukTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920BCD3722F00119009E15F6 /* Debug */,
+				920BCD3822F00119009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920BCD3922F00119009E15F6 /* Build configuration list for PBXNativeTarget "KundolukUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920BCD3A22F00119009E15F6 /* Debug */,
+				920BCD3B22F00119009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920BCD0322F00117009E15F6 /* Project object */;
+}
